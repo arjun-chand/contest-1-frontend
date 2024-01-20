@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container1{
+    background-color: #1f1f1f
+}
+.header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    background-color: #1f1f1f;
+    color: white;
+}
+#logo{
+    padding: 10px;
+    flex:1
+}
+.hbutton{
+    display: flex;
+    justify-content: center;
+    flex: 4;
+}
+
+.headerButton{
+    border-radius: 10px;
+    width: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    background: #262626;
+    color: white;
+}
+.search{
+    display: flex;
+    flex:9;
+    margin : 12px;
+}
+#searchinput{
+    flex: 3;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+}
+.aboutsection {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.aboutsection img{
+    margin: 12px;
+}
+#container2{
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: space-between;
+    background-color: #262626;
+}
+
+#innercontainer2{
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.yellowButton {
+    background-color: #FECB03;
+    height: 50px;
+    width: 37%;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 10px;
+}
+.aboutsection p{
+    color: white;
+}
+#imageP{
+    width: 291px;
+    height:291px
+}
+h1{
+        color: white;
+        margin: 6px;
+        padding: 7px;
+}
+.box{
+    color: white;
+}
+#container3{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 60px;
+    padding: 15px;
+    margin: 69px;
+    
+}
+.box{
+    border: 1px solid #727672d9;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+h2{
+    margin: 5px;
+    padding: 5px;
+}
+p{
+    
+        margin: 5px;
+        padding: 14px;
+
+}
+
+.buttondiv{
+    display: flex;
+    margin: 22px;
+    padding: 5px;
+    justify-content: end;
+    padding-top: 14px;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.forentfooter{
+    flex: 1;
+   
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#searchinput{
+    background-color: #727672d9;
+}
